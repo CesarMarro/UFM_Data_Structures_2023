@@ -1,5 +1,6 @@
 from stack import Stack
 
+
 # Stack initialization
 stack = Stack(5)
 print(stack)
@@ -29,7 +30,7 @@ stack.pop()
 print(stack)
 stack.pop()
 print(stack)
-# stack.pop() # Forces stack underflow
+stack.pop() # Forces stack underflow
 
 # Peek
 stack.push('D')

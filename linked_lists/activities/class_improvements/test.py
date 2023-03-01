@@ -52,8 +52,6 @@ ll.delete('C')
 print(ll)
 
 
-ll.traverse_iter()
-ll.traverse()
 
-print("hola")
-print(node_a)
+
+print(ll.search("A"))
